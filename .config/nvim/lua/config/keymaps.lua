@@ -9,3 +9,6 @@ map("n", "<C-d>", "<C-d>zz", { desc = "Page Down" })
 
 -- My quirky keymap for end of line :P
 map("i", "<S-CR>", "<End>")
+
+-- Stupid <C-c> doesn't trigger InsertLeave
+map("i", "<C-c>", "<Esc>")
