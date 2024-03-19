@@ -33,6 +33,8 @@ return {
         end
       end, { "i", "s" })
 
+      opts.mapping["<S-CR>"] = nil
+
       opts.experimental = {
         ghost_text = false,
       }
