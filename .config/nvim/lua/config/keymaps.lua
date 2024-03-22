@@ -12,3 +12,10 @@ map("i", "<S-CR>", "<End>")
 
 -- Stupid <C-c> doesn't trigger InsertLeave
 map("i", "<C-c>", "<Esc>")
+-- Copy to clipboard
+map("n", "<leader>yy", '"+yy', { desc = "Copy to clipboard" })
+map("v", "<leader>y", '"+y', { desc = "Copy to clipboard" })
+
+-- Paste from clipboard
+map("n", "<leader>p", '"+p', { desc = "Paste from clipboard" })
+map("v", "<leader>p", '"+p', { desc = "Paste from clipboard" })

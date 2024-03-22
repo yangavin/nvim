@@ -17,3 +17,6 @@ vim.api.nvim_create_autocmd("TextYankPost", {
 
 -- Disable cursorline
 vim.opt.cursorline = false
+
+-- Unset yank to clipboard
+vim.opt.clipboard = ""
